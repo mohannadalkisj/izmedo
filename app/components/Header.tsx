@@ -11,7 +11,7 @@ const Header = () => {
     <header className="bg-white shadow-md">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
-          <div className="flex justify-end lg:w-0 lg:flex-1">
+          <div className="flex justify-start lg:w-0 lg:flex-1">
             <Link href="/">
               <span className="sr-only">آي زد ميديا</span>
               <svg
@@ -37,7 +37,7 @@ const Header = () => {
               </svg>
             </Link>
           </div>
-          <div className="-ml-2 -my-2 md:hidden">
+          <div className="z-50 ml-2 my-2 md:hidden">
             <button
               type="button"
               className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500"
@@ -50,7 +50,7 @@ const Header = () => {
           <nav className="hidden md:flex space-x-10">
             <Link
               href="#services"
-              className="text-base font-medium text-gray-500 hover:text-gray-900"
+              className="text-base font-medium text-gray-500 hover:text-gray-900 mx-2"
             >
               خدماتنا
             </Link>
@@ -80,7 +80,7 @@ const Header = () => {
         <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-left md:hidden">
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
             <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
+              <div className="flex justify-between">
                 <div>
                   <svg
                     className="h-8 w-auto"

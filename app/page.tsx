@@ -4,6 +4,7 @@ import Services from './components/Services';
 import Clients from './components/Clients';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
+import AnimatedList from './components/test';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Clients />
       <Gallery />
+      <AnimatedList/>
       <Footer />
     </main>
   );

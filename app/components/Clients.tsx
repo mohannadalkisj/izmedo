@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const clients = [
-  { name: 'العميل 1', logo: '/placeholder.svg?height=80&width=160' },
-  { name: 'العميل 2', logo: '/placeholder.svg?height=80&width=160' },
-  { name: 'العميل 3', logo: '/placeholder.svg?height=80&width=160' },
-  { name: 'العميل 4', logo: '/placeholder.svg?height=80&width=160' },
-  { name: 'العميل 5', logo: '/placeholder.svg?height=80&width=160' },
-  { name: 'العميل 6', logo: '/placeholder.svg?height=80&width=160' },
+  { name: 'العميل 1', logo: '/ss.png' },
+  { name: 'العميل 2', logo: '/ss.png' },
+  { name: 'العميل 3', logo: '/ss.png' },
+  { name: 'العميل 4', logo: '/ss.png' },
+  { name: 'العميل 5', logo: '/ss.png' },
+  { name: 'العميل 6', logo: '/ss.png' },
 ];
 
 const Clients = () => {
